@@ -1632,7 +1632,6 @@ ul.social-icons li:nth-child(even) {
 .payment-block ul{
 	display:inline-flex;
 	width:100%;
-	justify-content: center;
 }
 .payment-block ul li{
 	margin-right:20px;
@@ -1763,6 +1762,9 @@ ul.social-icons li:nth-child(even) {
 	  .footer-section-1 .list-items li {
 	    display: block;
 	  }
+	  .payment-block ul{
+		justify-content: center;
+	}
 }
 
 @media(max-width:500px){
